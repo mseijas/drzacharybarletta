@@ -8,14 +8,14 @@
 
 #sidebar {
   @include padding(2.5em, 2.5em);
-  background: _palette(bg);
+  background: _palette(bg-sidebar);
   cursor: default;
   height: 100vh;
   left: 0;
   overflow-x: hidden;
   overflow-y: auto;
   position: fixed;
-  text-align: right;
+  text-align: left;
   top: 0;
   width: _size(sidebar-width);
   z-index: _misc(z-index-base);
@@ -69,7 +69,7 @@
 
         &.active {
           a {
-            color: _palette(fg-bold);
+            color: _palette(link-active-sidebar);
 
             &:after {
               max-width: 100%;
@@ -82,7 +82,7 @@
     a {
       @include vendor('transition', 'color #{_duration(transition)} ease');
       border: 0;
-      color: _palette(fg-light);
+      color: _palette(link-sidebar);
       display: block;
       font-size: 0.6em;
       font-weight: _font(weight-bold);
@@ -150,7 +150,7 @@
     }
   }
 
-  @include breakpoint('<=large') {
+  @include breakpoint('<=small') {
     height: _size(sidebar-height);
     left: 0;
     line-height: _size(sidebar-height);
@@ -199,7 +199,7 @@
     }
   }
 
-  @include breakpoint('<=small') {
-    display: none;
-  }
+  // @include breakpoint('<=small') {
+  //   display: none;
+  // }
 }

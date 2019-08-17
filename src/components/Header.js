@@ -4,7 +4,7 @@ import '../assets/sass/main.scss';
 const Header = () => (
   <header id="header">
     <Link className="title" to="/">
-      Hyperspace
+      ZacharyASD Barletta, PhD
     </Link>
     <nav>
       <ul>

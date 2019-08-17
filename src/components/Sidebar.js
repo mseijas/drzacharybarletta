@@ -19,6 +19,12 @@ export class Sidebar extends Component {
     const { tabs } = this.state;
     return (
       <section id="sidebar">
+        <div style={style.name}>
+          <p>Zachary</p>
+          <p>Barletta, PhD</p>
+          <div>-</div>
+          <p>Licensed Psychologist</p>
+        </div>
         <div className="inner">
           <nav>
             <Scrollspy
@@ -43,5 +49,12 @@ export class Sidebar extends Component {
     );
   }
 }
+
+const style = {
+  name: {
+    color: '#000',
+    lineHeight: 0,
+  },
+};
 
 export default Sidebar;
