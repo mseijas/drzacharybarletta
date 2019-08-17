@@ -5,14 +5,19 @@ const About = () => (
   <>
     <section id="about" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
-        <img
-          src={ZBarletta}
-          alt="Dr. Zachary Barletta"
-          data-position="25% 25%"
-          style={{ height: '18em', marginBottom: '3em' }}
-        />
-        <h2>About Me</h2>
+        {/* <h2>About Me</h2> */}
         <p>
+          <img
+            src={ZBarletta}
+            alt="Dr. Zachary Barletta"
+            data-position="25% 25%"
+            style={{
+              height: '30em',
+              marginBottom: '3em',
+              float: 'left',
+              marginRight: '2em',
+            }}
+          />
           I am licensed counseling psychologist and received my PhD from New
           York University (NYU) Steinhardt. In regards to my training, I
           completed my APA-accredited internship at Harvard Medical

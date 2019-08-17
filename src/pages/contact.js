@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
   <>
-    <section id="contact" className="wrapper style1 fullscreen fade-up">
+    <section id="contact" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
         <h2>Get in touch</h2>
         <p>
