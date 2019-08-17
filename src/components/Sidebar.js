@@ -19,13 +19,15 @@ export class Sidebar extends Component {
     const { tabs } = this.state;
     return (
       <section id="sidebar">
-        <div style={style.name}>
-          <p>Zachary</p>
-          <p>Barletta, PhD</p>
-          <div>-</div>
-          <p>Licensed Psychologist</p>
-        </div>
         <div className="inner">
+          <div className="logo">
+            <div className="name">
+              <p>Zachary</p>
+              <p>Barletta, PhD</p>
+            </div>
+            <div className="dash" />
+            <p className="title">Licensed Psychologist</p>
+          </div>
           <nav>
             <Scrollspy
               items={tabs.map(s => s.href)}
@@ -49,12 +51,5 @@ export class Sidebar extends Component {
     );
   }
 }
-
-const style = {
-  name: {
-    color: '#000',
-    lineHeight: 0,
-  },
-};
 
 export default Sidebar;

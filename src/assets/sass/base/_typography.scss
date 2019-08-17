@@ -7,14 +7,14 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: _palette(fg);
+		color: _palette(fg-text);
 		font-family: _font(family);
 		font-size: 16.5pt;
 		font-weight: _font(weight);
 		line-height: 1.75;
 
 		@include breakpoint('<=xlarge') {
-			font-size: 13pt;
+			font-size: 12pt;
 		}
 
 		@include breakpoint('<=large') {

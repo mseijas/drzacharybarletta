@@ -14,45 +14,25 @@
 			max-width: 100%;
 			width: _size(inner-width);
 
-			@include breakpoint('<=xlarge') {
-				@include padding(4em, 4em);
-			}
+			// @include breakpoint('<=xlarge') {
+			// 	@include padding(4em, 4em);
+			// }
 
 			@include breakpoint('<=large') {
 				width: 100%;
 			}
 
 			@include breakpoint('<=small') {
-				@include padding(3em, 2em);
+				@include padding(3em, 2.2em);
 			}
 		}
 
-		&.alt {
-			background-color: _palette(bg-alt);
-		}
+    &.style-base { 
+      background-color: #eceef1;
+    }
 
 		&.style1 {
 			background-color: _palette(accent1);
-		}
-
-		&.style1-alt {
-			background-color: _palette(accent1-alt);
-		}
-
-		&.style2 {
-			background-color: _palette(accent2);
-		}
-
-		&.style2-alt {
-			background-color: _palette(accent2-alt);
-		}
-
-		&.style3 {
-			background-color: _palette(accent3);
-		}
-
-		&.style3-alt {
-			background-color: _palette(accent3-alt);
 		}
 
 		&.fullscreen {

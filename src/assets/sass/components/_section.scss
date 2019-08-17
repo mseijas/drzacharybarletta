@@ -9,12 +9,16 @@
 	section, article {
 		&.special {
 			text-align: center;
-		}
+    }
+    
+    p {
+			color: _palette(fg-text-body);
+    }
 	}
 
 	header {
 		p {
-			color: _palette(fg-light);
+			color: _palette(fg-text-body);
 			position: relative;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 		}

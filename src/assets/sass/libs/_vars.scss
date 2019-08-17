@@ -17,7 +17,7 @@
 		border-width:		1px,
 		element-height:		2.75em,
 		element-margin:		2em,
-		sidebar-width:		18em,
+		sidebar-width:		21em,
 		sidebar-height:		3.5em,	// when <=large is active
 		inner-width:		75em
 	);
@@ -34,8 +34,10 @@
 // Palette.
 	$palette: (
     bg-sidebar: #fff,
-    link-sidebar: #000,
-    link-active-sidebar: #3dbeae,
+    fg-link-sidebar: #000,
+    fg-link-active-sidebar: #3dbeae,
+    fg-text:         #000,
+    fg-text-body:     #1e1e1e,
 		bg:					#fff,
 		bg-alt:				darken(#fff, 5),
 		fg:					rgba(255,255,255,0.55),
@@ -43,9 +45,9 @@
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
+		accent1:			#fdb940,
 		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
+		accent2:			#16ad49,
 		accent2-alt:		darken(#5052b5, 10),
 		accent3:			#b74e91,
 		accent3-alt:		darken(#b74e91, 10)
