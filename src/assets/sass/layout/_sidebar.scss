@@ -7,19 +7,20 @@
 /* Sidebar */
 
 #sidebar {
-  @include padding(2.5em, 2.3em);
+  @include padding(2.5em, 2em);
   background: _palette(bg-sidebar);
   cursor: default;
   height: 100vh;
   left: 0;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   position: fixed;
   text-align: left;
   top: 0;
   width: _size(sidebar-width);
   z-index: _misc(z-index-base);
   @include vendor('display', 'flex');
+  border-right: #f3f3f3 solid 1px;
 
   > .inner {
     @include vendor('display', 'flex');
@@ -32,7 +33,7 @@
 
     opacity: 1;
     width: 100%;
-    padding-bottom: 4em;
+    padding-bottom: 3.8em;
 
     body.is-ie & {
       height: 100%;
@@ -48,7 +49,7 @@
         margin: 0;
       }
 
-      font-size: 2.8em;
+      font-size: 2.5em;
       font-weight: _font(weight-bold);
       letter-spacing: 0.03em;
       line-height: 1.15em;
@@ -102,7 +103,8 @@
 
         &.active {
           a {
-            color: _palette(fg-link-active-sidebar);
+            // color: _palette(fg-link-active-sidebar);
+            text-decoration: underline;
 
             &:after {
               max-width: 100%;
@@ -124,7 +126,7 @@
       outline: 0;
       padding: 0.6em 0;
       position: relative;
-      text-decoration: none;
+      // text-decoration: none;
       text-transform: uppercase;
 
       &:before,
@@ -155,11 +157,13 @@
       // }
 
       &:hover {
-        color: lighten(_palette(fg-text), 50);
+        // color: lighten(_palette(fg-text), 50);
+        opacity: 0.7;
       }
 
       &.active {
-        color: _palette(fg-bold);
+        // color: _palette(fg-bold);
+        // text-decoration: underline;
 
         &:after {
           max-width: 100%;

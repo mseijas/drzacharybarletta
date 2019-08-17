@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 import About from './about';
 import Contact from './contact';
+import Approach from './approach';
+import Insurace from './insurance';
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +14,8 @@ const IndexPage = () => (
 
     <div id="wrapper">
       <About />
+      <Approach />
+      <Insurace />
       <Contact />
     </div>
 

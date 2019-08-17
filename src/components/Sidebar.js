@@ -7,10 +7,10 @@ export class Sidebar extends Component {
     super(props);
     this.state = {
       tabs: [
-        { content: 'Welcome', href: 'intro' },
-        { content: 'Who we are', href: 'one' },
-        { content: 'What we do', href: 'two' },
-        { content: 'Get in touch', href: 'three' },
+        { content: 'About Me', href: 'about' },
+        { content: 'Approach & Expertise', href: 'approach' },
+        { content: 'Fees & Insurance', href: 'insurance' },
+        { content: 'Contact', href: 'contact' },
       ],
     };
   }
@@ -47,6 +47,18 @@ export class Sidebar extends Component {
             </Scrollspy>
           </nav>
         </div>
+        <div
+          style={{
+            position: 'absolute',
+            backgroundColor: '#3dbeae',
+            height: '34em',
+            width: '34em',
+            borderRadius: '100%',
+            bottom: '-17em',
+            right: '-17em',
+            zIndex: '-100',
+          }}
+        ></div>
       </section>
     );
   }

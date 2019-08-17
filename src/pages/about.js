@@ -3,7 +3,7 @@ import ZBarletta from '../assets/img/ZBarletta.jpg';
 
 const About = () => (
   <>
-    <section id="intro" className="wrapper style-base fullscreen fade-up">
+    <section id="about" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
         <img
           src={ZBarletta}
@@ -11,7 +11,7 @@ const About = () => (
           data-position="25% 25%"
           style={{ height: '18em', marginBottom: '3em' }}
         />
-        <h2>Approach & Expertise</h2>
+        <h2>About Me</h2>
         <p>
           I am licensed counseling psychologist and received my PhD from New
           York University (NYU) Steinhardt. In regards to my training, I
