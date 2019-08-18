@@ -28,13 +28,8 @@
 		}
 
     &.style-base { 
-      // background-color: #eceef1;
-      background-color: #f4f5f6;
+      background-color: #f7f7f7;
     }
-
-		&.style1 {
-			background-color: _palette(accent1);
-		}
 
 		&.fullscreen {
 			@include vendor('display', 'flex');

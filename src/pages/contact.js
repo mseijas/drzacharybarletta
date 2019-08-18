@@ -4,88 +4,46 @@ const Contact = () => (
   <>
     <section id="contact" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
-        <h2>Get in touch</h2>
+        <h2>Contact</h2>
         <p>
-          Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-          mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-          hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-          quis lorem.
+          If you may be interested in working together, please reach out to me
+          by email or phone. If calling, please leave a voicemail with your full
+          name, a good call back number, and a few days & times that I might be
+          able to reach you.
         </p>
-        <div className="split style1">
+        <div className="split">
           <section>
-            <form method="post" action="#">
-              <div className="fields">
-                <div className="field half">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" />
-                </div>
-                <div className="field half">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email" />
-                </div>
-                <div className="field">
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" rows="5" />
-                </div>
-              </div>
-              <ul className="actions">
-                <li>
-                  <a href="/#" className="button submit">
-                    Send Message
-                  </a>
-                </li>
-              </ul>
-            </form>
+            <div>
+              <iframe
+                // width="600"
+                // height="450"
+                style={{ height: '100%', width: '100%', flex: 1 }}
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=928%20Broadway%2C%20Suite%20904%2C%20New%20York%20NY%2010010&key=AIzaSyCK1DN98FmOF5UBMeFsNM0ldIF1ZXDg8Ww"
+              ></iframe>
+            </div>
           </section>
           <section>
             <ul className="contact">
               <li>
                 <h3>Address</h3>
                 <span>
-                  12345 Somewhere Road #654
+                  928 Broadway
                   <br />
-                  Nashville, TN 00000-0000
+                  Suite 904, Office 2
                   <br />
-                  USA
+                  New York, NY 10010
                 </span>
               </li>
               <li>
                 <h3>Email</h3>
-                <a href="/#">user@untitled.tld</a>
+                <a href="mailto:zyb@drzacharybarletta.com">
+                  zyb@drzacharybarletta.com
+                </a>
               </li>
               <li>
                 <h3>Phone</h3>
-                <span>(000) 000-0000</span>
-              </li>
-              <li>
-                <h3>Social</h3>
-                <ul className="icons">
-                  <li>
-                    <a href="/#" className="fa-twitter">
-                      <span className="label">Twitter</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#" className="fa-facebook">
-                      <span className="label">Facebook</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#" className="fa-github">
-                      <span className="label">GitHub</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#" className="fa-instagram">
-                      <span className="label">Instagram</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/#" className="fa-linkedin">
-                      <span className="label">LinkedIn</span>
-                    </a>
-                  </li>
-                </ul>
+                <a href="tel:516-398-0297">(516) 398-0297</a>
               </li>
             </ul>
           </section>

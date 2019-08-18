@@ -4,7 +4,9 @@ const Insurace = () => (
   <>
     <section id="insurance" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
-        <h2>Fees & Insurance</h2>
+        <h2>
+          Insurance <span class="ampersand">&</span> Fee
+        </h2>
         <p>
           I am an in-network provider for the NYU Student Health Insurance,
           Wellfleet (previous known as CHP). Students who have this insurance

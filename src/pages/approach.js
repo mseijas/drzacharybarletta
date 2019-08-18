@@ -1,11 +1,12 @@
 import React from 'react';
-import ZBarletta from '../assets/img/ZBarletta.jpg';
 
 const Approach = () => (
   <>
     <section id="approach" className="wrapper style-base fullscreen fade-up">
       <div className="inner">
-        <h2>Approach & Expertise</h2>
+        <h2>
+          Approach <span class="ampersand">&</span> Expertise
+        </h2>
         <p>
           I work with young adults and adults from a
           psychodynamic/attachment-based perspective, meaning I am very

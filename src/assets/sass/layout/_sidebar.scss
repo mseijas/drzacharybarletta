@@ -24,7 +24,7 @@
 
   > .inner {
     @include vendor('display', 'flex');
-    @include vendor('align-self', 'flex-end');
+    @include vendor('align-self', 'center');
     @include vendor('flex-direction', 'column');
     @include vendor('justify-content', 'center');
     @include vendor('align-content', 'center');

@@ -40,6 +40,18 @@ const About = () => (
           graduated with a Bachelors of Science in human development from
           Cornell University.
         </p>
+        {/* <div
+          style={{
+            position: 'absolute',
+            backgroundColor: '#3dbeae',
+            height: '50em',
+            width: '50em',
+            borderRadius: '100%',
+            bottom: '-38em',
+            right: '-25em',
+            zIndex: '-100',
+          }}
+        ></div> */}
       </div>
     </section>
   </>

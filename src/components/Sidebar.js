@@ -9,7 +9,7 @@ export class Sidebar extends Component {
       tabs: [
         { content: 'About', href: 'about' },
         { content: 'Approach & Expertise', href: 'approach' },
-        { content: 'Fees & Insurance', href: 'insurance' },
+        { content: 'Insurance & Fee', href: 'insurance' },
         { content: 'Contact', href: 'contact' },
       ],
     };
