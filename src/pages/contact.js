@@ -13,17 +13,15 @@ const Contact = () => (
         </p>
         <div className="split">
           <section>
-            <div>
-              <iframe
-                // width="600"
-                // height="450"
-                style={{ height: '100%', width: '100%', flex: 1 }}
-                frameborder="0"
-                src="https://www.google.com/maps/embed/v1/place?q=928%20Broadway%2C%20Suite%20904%2C%20New%20York%20NY%2010010&key=AIzaSyCK1DN98FmOF5UBMeFsNM0ldIF1ZXDg8Ww"
-              ></iframe>
-            </div>
+            {/* <div style={{}}> */}
+            <iframe
+              style={{ height: '100%', width: '100%', flex: 1 }}
+              frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?q=928%20Broadway%2C%20Suite%20904%2C%20New%20York%20NY%2010010&key=AIzaSyCK1DN98FmOF5UBMeFsNM0ldIF1ZXDg8Ww"
+            ></iframe>
+            {/* </div> */}
           </section>
-          <section>
+          <section className="split-right">
             <ul className="contact">
               <li>
                 <h3>Address</h3>
